@@ -1,0 +1,81 @@
+*{
+    font-family: 'Courier New', Courier, monospace;
+    direction: rtl;
+    
+    
+    
+    }
+    body{
+    
+        background-image: url("bg.jfif");
+        background-position: 100%;
+        background-size: cover;
+        background-repeat: no-repeat;
+        font-size: large;
+        
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+    }
+    
+    
+    table, th, td {
+        border: 1px solid black;
+        width: 100px;
+        height: 50px;
+        }
+        
+        .mydiv{
+         color:aqua;
+    
+        }
+    
+    p{
+    
+    color: blue;
+    display: flex;
+    
+    align-items: center;
+    justify-content: center;
+    
+    
+    
+    }
+    
+     b{
+    color:brown;
+    
+    
+     }
+     
+    h1{
+    color:blue;
+    
+    
+    
+    }
+     li{
+        display: inline;
+        margin: 30px; 
+    
+        }
+        ol{
+        display: inline-block;
+        margin: 30px; 
+    
+        }
+        
+       hr{
+    
+        background-color: black ;
+    width: 100%;  
+    height: 5; }
+    
+    .imgs{
+        
+    
+        display: inline;
+    
+    
+    }

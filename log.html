@@ -1,0 +1,129 @@
+<html>
+    <head>
+        <title> الأردن</title>
+        <link href="css/p1.css" rel ="stylesheet"/>
+    
+    
+    
+        <style>
+            table, th, td {
+            border: 1px solid black;
+            width: 100px;
+            height: 50px;
+            }
+        </style>
+    </head>
+   <body>
+
+    <img src="img/logo.png" alt="logo">
+    <h1> أكادمية أكواد للبرمجة</h1>
+
+        <ol >
+        <li><a href="">الرئيسيه      </a></li>
+        <li> <a href="">مشاريعنا  </a></li>
+        <li> <a href=""> تسجيل التدريب </a></li>
+        </ol>
+       <hr/>
+
+
+    <form  class="wrapper" action="/" method="post">
+        
+        <legend> تسجيل مستخدم جديد</legend>
+
+        <label> اسم المستخدم</label>
+       <input type="text" name="name" value="" />
+       
+          <br>  
+          <br>  
+
+        <label>البريد اللاكتروني</label>
+        <input type="text" name="name" value="" />
+        <br>
+        <br>
+       
+
+        <label>كلمه المرور</label>
+        <input type="password" name="name" value="" />
+
+        <br>
+        <br>
+        
+        
+        <br>
+
+        
+<br>
+<label>التخصص </label>
+<input type="radio" name="gender" id="male" />
+<label for="A">ادبي</label>
+<input type="radio" name="A" id="female" />
+<label for="#">علمي</label>
+<input type="radio" name="#" id="female" />
+<label for="female">صناعي</label>
+<br>
+<br>
+<label for="agree"> تاريخ التقديم </label>
+<input type="time" name="agree" id="agree">
+<br>
+
+<label for="agree"> ملاحضات   </label>
+<textarea name="" id="" cols="50" ></textarea>
+<!-- <select
+     name="cuontry" id="cuontry">
+ <option value="">--Select a country--</option>
+        <option value="Irbid">Irbid</option>
+<option value="Amman">Amman</option>
+<option value="Salt">Salt</option>
+<option value="Madaba">Madaba</option>
+</select> -->
+<br>
+<br>
+<label for="agree">اللغات التي تتقنها</label>
+<br>
+
+<input type="checkbox" name="agree" id="agree">
+<label for="agree">html</label>
+<input type="checkbox" name="not agree" id="agree">
+<label for="not agree">css </label>
+<input type="checkbox" name="not agree" id="agree">
+<label for="not agree">android </label>
+<input type="checkbox" name="not agree" id="agree">
+<label for="not agree">ios </label>
+<br>
+
+<label for="not agree">التقدير العام  </label>
+
+<input type="range" min="1" max="100" value="" class="slider" id="myRange">
+<p>Value: <span id="demo"></span></p>
+<br>
+<button>ارسال</button>
+<button>اعادة ضبط</button>
+
+
+        </form>
+
+
+
+
+
+
+   </body> 
+   <script>
+    var slider = document.getElementById("myRange");
+    var output = document.getElementById("demo");
+    output.innerHTML = slider.value;
+    
+    slider.oninput = function() {
+      output.innerHTML = this.value;
+    }
+    </script>
+    <hr>
+    <br>
+
+<p> جميع الحقوق محفوظة لموقع اكادمية أكواد التعليمية</p>
+<div class="imgs">
+    <img src="img/f.jfif" alt="">
+    <img src="img/Instagram-new-logo-585x266.jpeg" alt="">
+    <img src="img/T.jfif" alt="">
+</div>
+</html>
